@@ -39,6 +39,8 @@ In today's digital age, seamless interaction remains a cornerstone of user engag
 
 📊 Enhance user experience and insights with advanced features! 💡 Implement session management and chat termination for chat continuity. Integrate push notification service with permission handling. Develop an activity dashboard component with real-time user activity metrics, utilizing data visualization libraries for interactive charts and graphs. Ensure the dashboard provides actionable insights based on user activity and input selections.
 
+- Tutorial: [Build a COMPLETE React Admin Dashboard App | React, Material UI, Data Grid, Light & Dark Mode](https://www.youtube.com/watch?v=wYpCWwD1oz0)
+
 ### Submission: Preparing Submission
 
 🎥 Create an impactful Loom video and compelling GitHub repository for your project! Develop clear slides, demonstrate functionality, and provide detailed documentation.
