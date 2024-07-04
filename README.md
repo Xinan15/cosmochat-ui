@@ -22,14 +22,19 @@ In today's digital age, seamless interaction remains a cornerstone of user engag
 
 🚀 Start your project journey with GitHub and React! 📂 Create a repository, install Node.js, and set up your React project. Utilize `package.json` to install essential dependencies like Axios, React Router, and Material UI.
 
+- Tutorial: [First React app using create-react-app | VS code | npx | npm](https://www.youtube.com/watch?v=-ERWlp828kY)
+
 ### Task 2: Project Structuring and Git Commit Initiation
 
 📁 Organize your project structure and commit to Git! 🛠️ Define directories for API, components, assets, and pages. Initiate your project's initial commit to the repository for version control.
+
+- Tutorial: [Junior vs Senior React Folder Structure - How To Organize React Projects](https://www.youtube.com/watch?v=UUga4-z7b6s)
 
 ### Task 3: Chat Interface Development with OpenAI Integration
 
 🌟 Build a dynamic chat interface with real-time communication! 🚀 Create a static landing page with a "Start Chat" button to load the chat component. Implement a chat interface with incoming and outgoing message differentiation, message input field, and send action. Integrate OpenAI API for intelligent chat responses, enhancing user interactions.
 
+- Tutorial: [Build A Chatbot With The ChatGPT API In React (gpt-3.5-turbo Tutorial)](https://www.youtube.com/watch?v=Lag9Pj_33hM)
 ### Task 4: Enhanced Chat Functionality and Activity Dashboard
 
 📊 Enhance user experience and insights with advanced features! 💡 Implement session management and chat termination for chat continuity. Integrate push notification service with permission handling. Develop an activity dashboard component with real-time user activity metrics, utilizing data visualization libraries for interactive charts and graphs. Ensure the dashboard provides actionable insights based on user activity and input selections.
