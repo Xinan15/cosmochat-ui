@@ -1,4 +1,5 @@
-import { useState } from "react";
+// src/scenes/global/Sidebar.jsx
+import React, { useState } from "react";
 import { ProSidebar, Menu, MenuItem } from "react-pro-sidebar";
 import { Box, IconButton, Typography, useTheme } from "@mui/material";
 import { Link } from "react-router-dom";
@@ -16,6 +17,7 @@ import PieChartOutlineOutlinedIcon from "@mui/icons-material/PieChartOutlineOutl
 import TimelineOutlinedIcon from "@mui/icons-material/TimelineOutlined";
 import MenuOutlinedIcon from "@mui/icons-material/MenuOutlined";
 import MapOutlinedIcon from "@mui/icons-material/MapOutlined";
+import ChatOutlinedIcon from "@mui/icons-material/ChatOutlined"; // Import Chat icon
 
 const Item = ({ title, to, icon, selected, setSelected }) => {
   const theme = useTheme();
@@ -162,6 +164,13 @@ const Sidebar = () => {
               Pages
             </Typography>
             <Item
+              title="Chatbot" // Add Chatbot item
+              to="/chatbot"
+              icon={<ChatOutlinedIcon />} // Use Chat icon
+              selected={selected}
+              setSelected={setSelected}
+            />
+            <Item
               title="Profile Form"
               to="/form"
               icon={<PersonOutlinedIcon />}
@@ -182,7 +191,6 @@ const Sidebar = () => {
               selected={selected}
               setSelected={setSelected}
             />
-
             <Typography
               variant="h6"
               color={colors.grey[300]}
